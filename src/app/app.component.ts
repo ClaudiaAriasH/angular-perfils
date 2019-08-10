@@ -9,8 +9,8 @@ export class AppComponent {
   name = 'Alejandra Giraldo';
   following = 5001;
   followers = 10002;
-  correos="aleja@prueba.com";
-  profesion:"Desarolladora";
+  correo="aleja@prueba.com";
+  profesion="Desarolladora";
 
   strengths = [{ text: 'English', level: 'Basic' }, { text: 'HTML', level: 'High' }, { text: 'Testing', level: 'Low' }];
 

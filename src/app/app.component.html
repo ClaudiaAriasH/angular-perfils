@@ -5,7 +5,12 @@
   
   <div class="infobox">
     <p class="infobox-username" *ngIf="name">{{name}}</p>
+     
+      <p class="infobox-username" *ngIf="name">{{profesion}}</p>
+
+      <p class="infobox-username" *ngIf="name">{{correo}}</p>
     <div class="">
+      
   <p class="align-left" *ngIf="following > 100">Following:</p><p class="align-right">{{following}}</p>  
 </div>
 <div class="clear-float" *ngIf="following > 700">
@@ -21,8 +26,9 @@
     <p class="align-left">{{person.name}}</p><p class="align-right">{{person.color}}</p>
   </div>
 </div>
+ <div class="floating-action-button"> + </div>
   </div>
-  <div class="floating-action-button"> + </div>
+ 
 </div>
 
 
